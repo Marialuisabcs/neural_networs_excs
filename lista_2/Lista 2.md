@@ -10,7 +10,7 @@
 
 #### 2. Dado $[10,5,3,1,8]$ como saída de uma rede neural para um problema de cinco classes ($[ford,volks,gm,bmw,honda]$) onde a classe verdadeira do exemplo é ford. Calcule a entropia cruzada deste exemplo.
 
-![Exc 2](/lista_2/imgs/list2_exc2_gn.png)
+![Exc 2](/lista_2/imgs/l2_exc2_gn.png)
 
 #### 3. Explique como transformar validação cruzada em leave-one-out.
 
