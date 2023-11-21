@@ -1,4 +1,4 @@
-> Lista preparatória para a segunda prova de Redes Neurais Artificiais. (WIP: 5, 35, 42)
+> Lista preparatória para a segunda prova de Redes Neurais Artificiais.
 
 ### Questões
 
@@ -24,7 +24,9 @@ Uma vez que o conjunto de validação é apresentado ao modelo (de acordo com a 
 
 Portanto, o desempenho calculado em cima do conjunto de testes é o que melhor reflete a realidade do modelo, dado que será um conjunto de exemplos inéditos sendo apresentados ao modelo.
 
-#### **5**. (**!!!**) Quando o pré-processamento deve ser realizado depois da separação de treino e teste?
+#### 5. Quando o pré-processamento deve ser realizado depois da separação de treino e teste?
+
+O pré-processamento é realizado após a separação do conjunto de treino e teste, quando o pré-processamento envolver a execução de processos (e.g., discretização) que podem acabar vazando informações do conjunto de teste para dentro do conjunto de treino. O que poderia prejudicar a confiabilidade da performance do modelo.
 
 #### 6. Qual é o perigo de utilizarmos o resultado da validação como resultado do modelo?
 
